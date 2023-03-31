@@ -1,0 +1,12 @@
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.meizu.hardware.fbase_defrag</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IFbaseDefrag</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IFbaseDefrag/default</fqname>
+    </hal>
+</manifest>

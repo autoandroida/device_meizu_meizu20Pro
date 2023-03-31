@@ -1,0 +1,12 @@
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.meizu.sensor_aux</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISensorAux</name>
+            <instance>default</instance>
+        </interface>
+	<fqname>@1.0::ISensorAux/default</fqname>
+    </hal>
+</manifest>

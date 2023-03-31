@@ -1,0 +1,12 @@
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.meizu.hardware.meizu_charging</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IMeizuCharging</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IMeizuCharging/default</fqname>
+    </hal>
+</manifest>
